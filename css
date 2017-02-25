@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+
+}
+ul{
+	list-style: none;
+}
+body{
+	background: #DEDEDE;
+}
+div{
+	background:#fff;
+	margin-bottom:10px;
+}
+.top{
+	height: 75px;
+	background: #000;
+	color:#fff;
+	line-height: 75px;
+}
+.top a{
+	color:#fff;
+}
+.top h1{
+	float: left;
+	margin-left: 100px;
+}
+.top ul{
+	float: right;
+}
+.top ul li{
+	float: left;
+	padding-right:20px;
+}
+.clear{
+	clear: both;
+}
+.page_one,.page_two,.page_three,.page_four,.page_five{
+	width:90%;
+	margin:0 auto;
+	padding:30px 30px;
+	margin-top:30px;
+	box-shadow: 1px 1px 1px 1px #808080;
+}
+
+.page_one,.page_two,.page_four h3,h4{
+	color:#6D696F ;
+}
+.page_one,.page_two,.page_four{
+	line-height: 50px;
+	color:#000 ;
+}
+h3{
+	color:#6d696f;
+}
+.page_one,.page_two,.page_four p{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 35px;
+}
+ .font_one{
+	text-indent: 2em;
+}
+.page_one img{
+	margin:20px 0px;
+}
+.page_two ul{
+	margin-left: 20px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.page_three div{
+	text-align: center;
+	width:380px;
+	padding: 10px 0px;
+	border:1px solid #ccc;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.page_three div p{
+	line-height: 3em;
+}
+.page_four ol{
+	margin-left: 40px;
+}
+.page_four ol li{
+	line-height: 30px;
+}
+.page_four table {
+	width: 97%;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.page_four table td{
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+.page_four table thead{
+	background: #000;
+	color:#fff;
+}
+.page_four .last{
+	background: #ccc;
+}
+/*page_five*/
+.page_five table{
+	margin: 0 auto;
+	margin-top:20px;
+	font-size: 15px;
+	width: 95%;
+}
+.page_five td{
+	line-height: 40px;
+}
+.page_five .td_one{
+	text-align: right;
+	padding-right:10px; 
+	width:30%;
+}
+.page_five input{
+	padding: 5px 10px;
+}
+.page_five textarea{
+	padding:5px;
+	font-size: 18px; 
+}
+.page_five .td_two{
+	/*font-weight: normal;*/
+	color: #A0A3A5;
+}
+.page_five .submit{
+	font-size: 18px;
+	padding:10px;
+	width: 100%;
+	color: #fff;
+	background: #3355D0;
+	border-radius: 10px;
+}
+footer{
+	background: #000;
+	color:#fff;
+	margin-top:20px;
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+}
